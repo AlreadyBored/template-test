@@ -39,5 +39,5 @@ jobs:
       - name: Check ESLint rules
         run: npx eslint --no-inline-config --config ./config2021q2/.eslintrc.json --ext .js,.ts ./src
 
-      - name: Check if TypeScript compiles
-        run: npx tsc --noEmit --project ./config2021q2
+#      - name: Check if TypeScript compiles
+#        run: npx tsc --noEmit --project ./config2021q2
